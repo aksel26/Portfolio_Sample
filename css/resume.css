@@ -53,6 +53,7 @@ p.lead {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
+  
 }
 
 .social-icons a {
@@ -153,7 +154,7 @@ p.lead {
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 75rem;
+  max-width: 90%;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -208,7 +209,10 @@ a:hover, a:focus, a:active {
 }
 
 
-
+#award{
+  width: 20%;
+  height: 40%;
+}
 body{
   animation: fadein 2000ms ease-out;
   -moz-animation: fadein 2000ms ease-out; /* Firefox */
@@ -233,4 +237,3 @@ body{
 }
 
 
-출처: https://sweet-myo.tistory.com/168 [달콤한환상]
