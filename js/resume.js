@@ -29,7 +29,7 @@
 
 
 
-$('.row .portfolio-info').each(function(){
+$('.row').each(function(){
   $(this).hover(function(){
     $(this).animate({ opacity: "0.5" })
   })
