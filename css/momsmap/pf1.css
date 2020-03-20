@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
 @import url(https://fonts.googleapis.com/css?family=Baloo+Paaji);
 
 #image{
@@ -13,8 +13,8 @@
 }
 .container-fluid{
     width:80%;
-    font-family: 'Hanna', sans-serif;   
     
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .details_menu{
@@ -53,7 +53,7 @@ h2{
     margin-right: auto;
     padding-bottom: 20px;
 
-    font-family: 'Hanna', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .mainImage{
