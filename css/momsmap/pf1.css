@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/css?family=Baloo+Paaji);
+
+#image{
+    width:60%;
+    height: 80%;
+    /* opacity: 0.5; */
+    border-radius: 40px;
+    margin-bottom: 200px;
+    padding-bottom: 0;
+    /* padding-right:50px */
+    
+}
+.container-fluid{
+    width:80%;
+    font-family: 'Hanna', sans-serif;   
+    
+}
+
+.details_menu{
+    list-style: none; 
+}
+.detail{
+    opacity: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_phrase{
+    font-weight: 600;
+    margin-bottom: 80px;
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about_phrase li{
+    margin-bottom: 20px;
+    list-style: none; 
+}
+h1{
+    font-family: 'Baloo Paaji';
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    
+    
+}
+h2{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+
+    font-family: 'Hanna', sans-serif;
+}
+
+.mainImage{
+    text-align: center; 
+    
+}
+.mainImage img{
+    width:40%;
+    height: 60%;
+    /* opacity: 0.5; */
+    border-radius: 40px;
+    margin-bottom: 200px;
+}
+
+.row #image{
+    width:100%;
+}
+#details{
+    font-size: 15px;
+    
+}
+
+.about{
+    padding-bottom: 60px;
+}
+
+/* go to top button */
+
+.to-top-btn {
+    background-color: white;
+    padding: 15px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.05), 0 5px 5px 0 rgba(0,0,0,0.05);
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+    display: none;
+  }
+  

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hipdrobe</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="/css/hipdrobe/pf2.css" rel="stylesheet" media="screen">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@800&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Teko:wght@700&display=swap" rel="stylesheet">
+  
+</head>
+
+
+
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Others
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="portfolio1.html">Momsmap</a>
+            <a class="dropdown-item" href="portfolio3.html">Blindspot Finder</a>
+          </div>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+
+
+  <h1 class="title">Hipdrobe</h1>
+ 
+  <section class="about">
+    
+    <img src="/img/hipdrobe/hipdrobe.gif"id="mainImage">
+    
+    <div class="about_phrase">
+      <h2 >1. 기획동기</h2>
+    
+      <p>행거 하나에 걸린 옷들 만으로도 20종류 이상의 룩(look)을 선보이는 패션 크리에이터의 영상을 모티브로, </br>
+      이용자의 옷을 한 눈에 파악할 수 있는 온라인 옷장, <strong>힙드로브</strong>, 내 손안의 작은 옷장이라는 서비스를 기획하였습니다.</br>
+      이를 통해, 가지고 있는 옷의 활용도가 높아지고, 나아가 직접 코디해 보면서 패션에 대한 advice를 통해 패알못을 탈출하는데에 도움이 될 것입니다.
+      </p>
+      
+      
+    </div>
+    
+    <div class="about_phrase">
+      <h2>2. 프로젝트 내용</h2>
+      <ul>
+        <li>기간 : 2019/11 - 2019/12</li>
+        <li>팀원 : 김재현(팀장), 김현민, 성하진</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="detail">
+
+    <div class="detail_skill">
+      <h2>3. 사용기술</h2>
+        <ol>
+          <li>Django Framework</li>
+            <p> : Backend Server Layer 구현</p>
+          <li>OpenCV - background image remove (일부 자체구현)</li>
+            <p> : 옷장 아이템 이미지 백그라운드 제거</p>
+          <li>Drag & Drop library</li>
+            <p> : 코디 작성 중 착용한 아이템을 원하는 위치로 조정</p>
+          <li>DOM Element to Json, Json to DOM Element(자체 구현)</li>
+            <p> : javascript를 활용한 코디 포스트의 serialize 및 deserialize 코드</p>
+          <li>ORM</li>
+            <p> : django의 기능을 최대한 활용한 편리한 DB 접근 및 제어</p>
+        </ol>
+    </div>
+
+    <div class="detail_erd" style="float: none;">
+      <h2>4. WBS</h2>
+      <img src="/img/hipdrobe/hipdrobeWBS.png"  style="width:60%"id="image">
+    </div>
+
+
+    <div class="useCase">
+      <h2>4. UseCase</h2>
+      <img src="/img/hipdrobe/hipdrobeUsecase.png"  style="width:60%"id="image">
+    </div>
+
+    <div class="detail_erd" style="float: none;">
+      <h2>5. ERD</h2>
+      <img src="/img/hipdrobe/hipdrobeERD.png"  style="width:60%"id="image">
+    </div>
+
+    
+
+    <div class="operation">
+    <h2>6. 구현 화면</h2>
+    </div>
+    <!-- <div>회원가입 화면 (Ajax)</div> -->
+    <div class="container-fluid" >
+      <div class="row">
+
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>회원가입 페이지</p>
+          <img src="/img/hipdrobe/hipdorbe1.png"  class="img-responsive" id="image" >
+        </div>
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>로그인 페이지</p>
+          <img src="/img/hipdrobe/hipdorbe2.png" class="img-responsive" id="image" >
+        </div>
+     
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>메인페이지</p>
+          <img src="/img/hipdrobe/hipdorbe3.png" class="img-responsive" id="image">
+        </div>
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>My옷장 페이지</p>
+          <img src="/img/hipdrobe/hipdorbe4.png" class="img-responsive" id="image">
+        </div>
+     
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>My 옷장 - 아이템 리스트 모달</p>
+          <img src="/img/hipdrobe/hipdorbe5.png"" class="img-responsive" id="image">
+        </div>
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>아이템 등록 - Categorizing</p>
+          <img src="/img/hipdrobe/hipdorbe6.png" class="img-responsive" id="image">
+        </div>
+     
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>아이템 등록 - BG 제거</p>
+          <img src="/img/hipdrobe/hipdorbe7.png" class="img-responsive" id="image">
+        </div>
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>코디하기 - 부위 설정</p>
+          <img src="/img/hipdrobe/hipdorbe8.png" class="img-responsive" id="image">
+        </div>
+      
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>코디하기 - 코디 모드</p>
+          <img src="/img/hipdrobe/hipdorbe9.png" class="img-responsive" id="image">
+        </div>
+        <div class="col-sm-6 col-xs-6 col-sm-6">
+          <p>코디 히스토리</p>
+          <img src="/img/hipdrobe/hipdorbe10.png" class="img-responsive" id="image">
+        </div>
+     
+    </div>
+  </div>
+
+  </section>
+
+  <!-- go to top button -->
+  <button class="to-top-btn">
+    <img src="/img/arrow.png" width="24" height="24">
+  </button>
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="/js/hipdrobe/pf2.js"></script>
+
+</body>
+
+</html>

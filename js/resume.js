@@ -26,3 +26,46 @@
   });
 
 })(jQuery); // End of use strict
+
+
+
+$('.row .portfolio-info').each(function(){
+    $(this).click(function(index,value){
+      
+      $(this).animate({ opacity: "0.5" })
+      console.log($(this).index())
+      if($(this).index()==0){
+        location.href='portfolio1.html'
+      }else if($(this).index()==1){
+        location.href='portfolio2.html'
+      }else if($(this).index()==2){
+        location.href='portfolio3.html'
+      }
+    })
+    $(this).mouseleave(function(){
+      
+        $(this).animate({ opacity: "1" })
+    })
+
+ 
+})
+
+
+
+  $("body").css("display", "none");
+  $("body").fadeIn(2000);
+  $("a.transition").click(function(event){
+  event.preventDefault();
+  linkLocation = this.href;
+  $("body").fadeOut(1000, redirectPage);
+  });
+  function redirectPage() {
+  window.location = linkLocation;
+  }
+  
+  
+  
+
+
+
+
