@@ -30,9 +30,12 @@
 
 
 $('.row .portfolio-info').each(function(){
+  $(this).hover(function(){
+    $(this).animate({ opacity: "0.5" })
+  })
     $(this).click(function(index,value){
       
-      $(this).animate({ opacity: "0.5" })
+      
       console.log($(this).index())
       if($(this).index()==0){
         location.href='portfolio1.html'
