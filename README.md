@@ -1,1 +1,2 @@
-
+- 배포 : Gitpage</br>
+- 사용 언어 : Javascript
